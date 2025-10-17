@@ -1,0 +1,26 @@
+#users {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+.user {
+    border: 1px solid gray;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+
+.user img {
+    border-radius: 50%;
+}
+.user figcaption {
+    margin-top: 1rem;
+    color: yellowgreen;
+}
